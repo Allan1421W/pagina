@@ -1,0 +1,36 @@
+.title{
+    display: flex;
+    background-color: rgb(36, 133, 224);
+    justify-content: center;
+}
+.title > h1{
+    background-color: rgb(233, 196, 196);
+    flex-wrap: wrap;
+}
+.menu{
+    display: flex;
+    background-color: rgb(78, 142, 202);
+    justify-content: center;
+}
+.menu > h3{
+    display: flex;
+    background-color: rgb(233, 196, 196);
+}
+.movies-container{
+    display: flex;
+    background-color: beige;
+    flex-flow: row wrap;
+}
+.movies-container > div > div{
+    display: flex;
+    background-color: brown;
+    width: 100px;
+    margin: 10px;
+    align-content: center;
+
+}
+.movies-container img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
